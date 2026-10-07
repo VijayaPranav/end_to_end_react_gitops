@@ -1,8 +1,11 @@
 # end to end React Application GitOps Repository
 
+## GitHub as the Single Source of Truth
+
+This project follows the GitOps principle of treating GitHub as the single source of truth for the desired state of the application. Argo CD continuously monitors this repository and reconciles the Kubernetes cluster with the state defined in Git.
+
 This repository contains the Kubernetes manifest files used to deploy the React application to a K3s Kubernetes cluster.
 
-Argo CD uses this repository as the single source of truth for the desired Kubernetes state.
 
 ## Files
 
